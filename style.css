@@ -1,0 +1,316 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.header
+{
+    background-color: #F85606;
+    width: 100%;
+    height: 118px;
+    color: #Ffffff;
+}
+.navbar1
+{
+    display: flex;
+    justify-content: center;
+    padding-right: 30px;
+    font-size: 12px;
+    padding-top: 5px;
+    height: 25px;
+}
+.navbarPad1
+{
+    width: 600px;
+}
+.navbar1 p{
+    padding-right: 25px;
+}
+.navbar2
+{
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F85606;
+    /* position:fixed; */
+}
+.nav_logo
+{
+    padding-right: 80px;
+}
+.logo
+{
+    background-image: url("image/logo.png");
+    background-size: cover;
+    height: 40px;
+    width: 130px;
+}
+.nav_search
+{
+    width: 700px;
+    height: 50px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: #Ffffff;
+}
+.search
+{
+    width: 650px;
+    height: 100%;
+    padding: 13px 19px;
+    border: none;
+    border-radius: 5px;
+
+}
+.searchIcon{
+    width: 50px;
+    height: 100%;
+    background-color: #ffe1d2;
+    color: #F85606;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart
+{
+    margin-left: 20px;
+}
+.navbarPad2
+{
+    width: 300px;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+.bodycover
+{
+    height: 350px;
+    background-color: #E7E8EC;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slideCover{
+    height: 100%;
+    width: 990px;
+    background-image: url("image/cover1.png");
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.downloadapp
+{   height: 100%;
+    width: 190px;
+    background-image: url("image/downloadlink.png");
+    background-size: cover;
+    margin-left: 6px;
+}
+.lrbutton
+{   cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.3px);
+    box-shadow: rgba(68, 62, 62, 0.356);
+}
+
+.offerbanner
+{
+    height: 140px;
+    width: 900px;
+    background-image: url("image/anniversarySale.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.FlashSale
+{
+    /* display: flex; */
+}
+.flashContainer
+{
+    height: 375px;
+    width: 1190px;
+    background-color: white;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.pheader
+{
+    font-size: 25px;
+    color: #424242;
+}
+.flashSale_header
+{
+    display: flex;
+    justify-content: space-between;
+    color: #f57224;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid rgba(10, 10, 10, 0.356);
+
+}
+.shopProduct
+{
+    border: 2px solid #f57224;
+    color: #f57224;
+    background-color: white;
+    /* border-radius: 5px; */
+    padding: 10px;
+    cursor: pointer;
+}
+.flashsale_body
+{
+    height: 290px;
+    width: 1190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flashsaleBody{
+    width: 188px;
+    height: 100%;
+    margin-top: 5px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3px);
+}
+
+.flashsaleImag{
+    background-image: url("image/stick.png");
+    background-size: cover;
+    height: 180px;
+    width: 180px;
+    margin: 3px;
+}
+.flashsaleBody:hover
+{
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.212);
+}
+.categoriesBody
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.catbody
+{
+    height: 148px;
+    width: 148px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    margin: 3px;
+}
+.catbodyimg
+{
+    height: 80px;
+    width: 80px;
+}
+.img1
+{
+    background-image: url("image/router.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.img2
+{
+    background-image: url("image/watch.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.img3
+{
+    background-image: url("image/bedsheets.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.img4
+{
+    background-image: url("image/phone.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.img5
+{
+    background-image: url("image/boiler.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.img6
+{
+    background-image: url("image/eyecare.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.img7
+{
+    background-image: url("image/mug.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.img8
+{
+    background-image: url("image/Game.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.catbody p{
+    font-size: 14px;
+    margin-top:  10px;
+}
+.containerbutton
+{
+    height: 73px;
+    width: 1190px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.loadmore
+{
+    color: #1a9cbb;
+    padding: 1px 200px 1px 200px;
+    border: 2px solid #1a9cbb ;
+    font-size: 14px;
+}
+footer
+{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;   
+}
+.footerimg
+{
+
+    height: 270px;
+    width: 400px;
+    background-image: url("image/footer.png");
+    background-size: cover;
+}
+.upperfooter
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
